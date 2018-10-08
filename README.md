@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # liri-node-app
 LIRI (Language Interpretation and Recognition Interface) understands your commands and performs useful tasks like SIRI.
 
@@ -53,3 +54,6 @@ Type `node liri.js movie-this '<movie name here>'` to find movie information.
 
 Type `node liri.js do-what-it-says` to run the commands in `random.txt` file.
 ![Don What It Says](images/run_pt6.png)
+=======
+# liri-node-app
+>>>>>>> d75e040... Initial commit
