@@ -2,7 +2,11 @@
   "name": "liri-node-app",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
   "main": "liri.js",
+=======
+  "main": "index.js",
+>>>>>>> a6c0dd6... initial upload of git ignore  environment variable set up and basic js
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/pzafonte/liri-node-app/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/pzafonte/liri-node-app#readme",
   "dependencies": {
     "dotenv": "^6.1.0",
@@ -24,4 +29,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {}
+=======
+  "homepage": "https://github.com/pzafonte/liri-node-app#readme"
+>>>>>>> a6c0dd6... initial upload of git ignore  environment variable set up and basic js
 }

@@ -2,9 +2,12 @@
 const request = require("request");
 const Spotify = require("node-spotify-api");
 const moment = require("moment");
+<<<<<<< HEAD
 const fs = require("fs");
 const os = require("os");
 
+=======
+>>>>>>> a6c0dd6... initial upload of git ignore  environment variable set up and basic js
 
 // turn on dotenv to load up environment variables from .env file
 require("dotenv").config();
@@ -13,6 +16,7 @@ const spotifyKeys = require("./keys.js");
 
 // turn on new spotify app
 const spotify = new Spotify(spotifyKeys.spotify);
+<<<<<<< HEAD
 
 let command = process.argv[2];
 let argument = process.argv.slice(3).join(" ");
@@ -162,3 +166,5 @@ function runCommand(command, argument) {
 }
 
 runCommand(command, argument);
+=======
+>>>>>>> a6c0dd6... initial upload of git ignore  environment variable set up and basic js
