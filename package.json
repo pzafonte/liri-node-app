@@ -1,16 +1,8 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "",
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "main": "liri.js",
-=======
-  "main": "index.js",
->>>>>>> a6c0dd6... initial upload of git ignore  environment variable set up and basic js
-=======
-  "main": "liri.js",
->>>>>>> 1d8acaf... liri-node-app v0.1
+  "description": "LIRI (Language Interpretation and Recognition Interface) understands your commands and performs useful tasks like SIRI.",
+  "main": "keys.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,22 +16,5 @@
   "bugs": {
     "url": "https://github.com/pzafonte/liri-node-app/issues"
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1d8acaf... liri-node-app v0.1
-  "homepage": "https://github.com/pzafonte/liri-node-app#readme",
-  "dependencies": {
-    "dotenv": "^6.1.0",
-    "moment": "^2.22.2",
-    "node-spotify-api": "^1.0.7",
-    "request": "^2.88.0"
-  },
-  "devDependencies": {}
-<<<<<<< HEAD
-=======
   "homepage": "https://github.com/pzafonte/liri-node-app#readme"
->>>>>>> a6c0dd6... initial upload of git ignore  environment variable set up and basic js
-=======
->>>>>>> 1d8acaf... liri-node-app v0.1
 }
