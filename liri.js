@@ -118,7 +118,7 @@ const doWhatItSays = function () {
 
       let seperator = command.indexOf(",");
 
-      let commandArg1 = (seperator >= 0) ? command.substring(0, seperator).trim().replace(/['"]+/g, '') : command;
+      let commandArg1 = (seperator >= 0) ? command.substring(0, seperator).trim().replace(/['"]+/g, '') : command; //replace strips out double quotes
       let commandArg2 = (seperator >= 0) ? command.substring(seperator + 1).trim().replace(/['"]+/g, '') : undefined;
 
       runCommand(commandArg1, commandArg2);
