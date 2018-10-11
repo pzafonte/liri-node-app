@@ -30,21 +30,21 @@ SPOTIFY_SECRET=your-spotify-secret
 
 ## Demos - Concert This
 
-Type `node liri.js concert-this <artist/band name here>` to get your 20 most recent Tweets.
+Type `node liri.js concert-this <artist/band name here>` to get upcoming concert venues.
 
 ![Concert This](images/run_pt3.png)
 
 
 ## Demos - Spotify This Song
 
-Type `node liri.js spotify-this-song '<song name here>'` to find the artist and album information.
+Type `node liri.js spotify-this-song '<song name here>'` to find song information.
 
 ![Spotify This Song](images/run_pt4.png)
 
 
 ## Demos - Movie This
 
-Type `node liri.js movie-this '<movie name here>'` to find the movie information.
+Type `node liri.js movie-this '<movie name here>'` to find movie information.
 
 ![Movie This](images/run_pt5.png)
 
