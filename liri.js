@@ -3,11 +3,17 @@ const request = require("request");
 const Spotify = require("node-spotify-api");
 const moment = require("moment");
 <<<<<<< HEAD
+<<<<<<< HEAD
 const fs = require("fs");
 const os = require("os");
 
 =======
 >>>>>>> a6c0dd6... initial upload of git ignore  environment variable set up and basic js
+=======
+const fs = require("fs");
+const os = require("os");
+
+>>>>>>> 1d8acaf... liri-node-app v0.1
 
 // turn on dotenv to load up environment variables from .env file
 require("dotenv").config();
@@ -17,6 +23,9 @@ const spotifyKeys = require("./keys.js");
 // turn on new spotify app
 const spotify = new Spotify(spotifyKeys.spotify);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1d8acaf... liri-node-app v0.1
 
 let command = process.argv[2];
 let argument = process.argv.slice(3).join(" ");
@@ -122,7 +131,11 @@ const doWhatItSays = function () {
 
       let seperator = command.indexOf(",");
 
+<<<<<<< HEAD
       let commandArg1 = (seperator >= 0) ? command.substring(0, seperator).trim().replace(/['"]+/g, '') : command; //replace strips out double quotes
+=======
+      let commandArg1 = (seperator >= 0) ? command.substring(0, seperator).trim().replace(/['"]+/g, '') : command;
+>>>>>>> 1d8acaf... liri-node-app v0.1
       let commandArg2 = (seperator >= 0) ? command.substring(seperator + 1).trim().replace(/['"]+/g, '') : undefined;
 
       runCommand(commandArg1, commandArg2);
@@ -165,6 +178,10 @@ function runCommand(command, argument) {
   }
 }
 
+<<<<<<< HEAD
 runCommand(command, argument);
 =======
 >>>>>>> a6c0dd6... initial upload of git ignore  environment variable set up and basic js
+=======
+runCommand(command, argument);
+>>>>>>> 1d8acaf... liri-node-app v0.1

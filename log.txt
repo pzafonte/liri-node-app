@@ -310,6 +310,7 @@ Album: Smells Like Teen Spirit
 liri-node-app error:
 "spotify-this-sonf" is a not liri command.
 Acceptable commands are "concert-this", "spotify-this-song", "movie-this", or "do-what-it-says".
+<<<<<<< HEAD
 Concert This Results: 'modest mouse'
 ------------------------------
 Venue: The Wellmont Theater
@@ -687,3 +688,5 @@ Song: I Want It That Way
 Preview: https://p.scdn.co/mp3-preview/bc65890577b72315e413e59acd4c3dbac09fed57?cid=1dc7e258aae0435fa808013166c1e26e
 Album: Jay Smith
 ------------------------------
+=======
+>>>>>>> 1d8acaf... liri-node-app v0.1
