@@ -132,10 +132,14 @@ const doWhatItSays = function () {
       let seperator = command.indexOf(",");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       let commandArg1 = (seperator >= 0) ? command.substring(0, seperator).trim().replace(/['"]+/g, '') : command; //replace strips out double quotes
 =======
       let commandArg1 = (seperator >= 0) ? command.substring(0, seperator).trim().replace(/['"]+/g, '') : command;
 >>>>>>> 1d8acaf... liri-node-app v0.1
+=======
+      let commandArg1 = (seperator >= 0) ? command.substring(0, seperator).trim().replace(/['"]+/g, '') : command; //replace strips out double quotes
+>>>>>>> f937d45... updated README
       let commandArg2 = (seperator >= 0) ? command.substring(seperator + 1).trim().replace(/['"]+/g, '') : undefined;
 
       runCommand(commandArg1, commandArg2);
